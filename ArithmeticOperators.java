@@ -1,3 +1,18 @@
+AIM:-
+To write a Java program to perform arithmetic operations such as addition, subtraction, multiplication, division, and modulus using a switch statement.
+
+ALGORITHM:-
+1. Start the program.
+2. Create a Scanner object to read input from the user.
+3. Read two numbers from the user.
+4. Display the menu of arithmetic operations.
+5. Read the user's choice.
+6. Use a switch statement to perform the selected operation.
+7. Display the result of the operation.
+8. Repeat the process until the user chooses Exit.
+9. Stop the program.
+
+PROGRAM:-
 import java.util.Scanner;
 public class ArithmeticOperators
 {
@@ -55,3 +70,22 @@ public class ArithmeticOperators
         }
     }
 }
+
+OUTPUT:-
+Enter the two number to perform operations
+Enter the first number:
+10
+Enter the second number:
+5
+Choose the operations you want to perform
+Choose 1 for Addition
+Choose 2 for Subtraction
+Choose 3 for Multiplication
+Choose 4 for Division
+Choose 5 for Modulus
+Choose 6 for Exit
+1
+Result:15
+
+RESULT:-Thus, the Java program was executed successfully to perform addition,
+    subtraction, multiplication, division, and modulus operations using a switch statement.
