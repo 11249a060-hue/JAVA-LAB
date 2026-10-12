@@ -1,3 +1,16 @@
+AIM:-
+To write a Java program to write uppercase English alphabets from A to Z into a text file using the FileWriter class.
+
+ALGORITHM:-
+1. Start the program.
+2. Create a FileWriter object for sample2.txt.
+3. Use a for loop to generate characters from A to Z.
+4. Write each character into the file.
+5. Close the file and display a success message.
+6. Handle exceptions using a catch block.
+7. Stop the program.
+
+PROGRAM:-
 import java.io.*;
 
 class MyFileWriter { // Renamed to avoid class conflict
@@ -19,3 +32,8 @@ class MyFileWriter { // Renamed to avoid class conflict
         }
     }
 }
+
+OUTPUT:-
+    ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+RESULT:-Thus, the Java program was executed successfully to write uppercase alphabets from A to Z into a text file using the FileWriter class.
