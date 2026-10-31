@@ -1,3 +1,15 @@
+Aim:
+To search for an element in an array using binary search in Java.
+
+Algorithm:
+1. Read the number of elements and array elements.
+2. Read the element to be searched.
+3. Initialize first = 0 and last = n - 1.
+4. Find the middle element and compare it with the search element.
+5. If equal, display "element found"; otherwise, adjust first or last.
+6. Display "element not found" if the element is absent.
+
+Program:
 import java.util.Scanner;
 class binarysearch
 {
@@ -39,3 +51,14 @@ System.out.println("element not found");
 }
 }
 
+Output:
+enter number of elements:
+5
+Enter elements of array:
+1 2 3 4 5
+enter element to search:
+3
+element found
+
+Result:
+Thus, binary search was implemented successfully in Java.
