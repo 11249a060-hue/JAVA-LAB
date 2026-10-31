@@ -51,4 +51,5 @@ LowThread is processing step 1
 HighThread has FINISHED.
 LowThread has FINISHED.
 
+ Result:
 Thus, two threads with different priorities were created and executed successfully.
