@@ -1,3 +1,14 @@
+Aim:
+To sort array elements in ascending order using Java.
+
+Algorithm:
+1. Read the number of elements.
+2. Store the elements in an array.
+3. Compare each element with the remaining elements.
+4. Swap elements if they are in the wrong order.
+5. Display the array in ascending order.
+
+Program:
 import java.util.Scanner;
 
 public class ascendingorder {
@@ -27,3 +38,16 @@ public class ascendingorder {
         System.out.print(a[n - 1]);
     }
 }
+
+Output:
+enter no.of elements you want in array: 5
+enter all the elements:
+5
+2
+8
+1
+3
+ascending order: 1,2,3,5,8
+
+Result:
+Thus, the array elements were sorted in ascending order successfully.
