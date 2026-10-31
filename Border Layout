@@ -1,0 +1,45 @@
+Aim:
+To arrange components in five regions using BorderLayout in Java.
+
+Algorithm:
+1. Import the AWT and Applet packages.
+2. Create a class named insertdemo that extends Applet.
+3. Set the background colour to cyan.
+4. Set the layout to BorderLayout.
+5. Add buttons to the North, South, East and West regions.
+6. Add a text area to the Center region.
+
+Program:
+import java.awt.*;
+import java.applet.*;
+import java.io.*;
+import java.util.*;
+
+/* <applet code="insertdemo" width=400 height=200>
+</applet> */
+
+public class insertdemo extends Applet {
+    public void init() {
+        setBackground(Color.cyan);
+        setLayout(new BorderLayout());
+
+        add(new Button("this is cross the top"), BorderLayout.NORTH);
+        add(new Button("the footer messsage migth go here"), BorderLayout.SOUTH);
+        add(new Button("RIGHT"), BorderLayout.EAST);
+        add(new Button("LEFT"), BorderLayout.WEST);
+
+        String msg = "the reasonable man adapts\n\n";
+        add(new TextArea(msg), BorderLayout.CENTER);
+    }
+
+    public Insets getInsets() {
+        return new Insets(10,10,10,10);
+    }
+}
+
+Output:
+A cyan applet displays buttons at the top, bottom, right and left, with a text area in the centre.
+
+Result:
+Thus, BorderLayout was implemented successfully in Java.
+
