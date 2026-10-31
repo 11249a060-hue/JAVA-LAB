@@ -1,3 +1,16 @@
+Aim:
+To perform different string operations in Java.
+
+Algorithm:
+1. Create a string variable with the value "Hello World".
+2. Apply string methods like length(), charAt(), equals(), and substring().
+3. Convert the string to uppercase and lowercase.
+4. Check text using contains() and indexOf().
+5. Replace a word using replace() and split the string using split().
+6. Display all results.
+
+    
+Program:   
 public class StringOperations {
     public static void main(String[] args) {
 
@@ -39,3 +52,20 @@ public class StringOperations {
         }
     }
 }
+
+Output:
+1. Length: 11
+2. Character: H
+3. Equals: true
+4. Uppercase: HELLO WORLD
+5. Lowercase: hello world
+6. Substring: World
+7. Contains: true
+8. Index: 6
+9. Replace: Hello Java
+10. Split:
+Hello
+World
+
+Result:
+Thus, different string operations were performed successfully in Java.
